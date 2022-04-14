@@ -1,0 +1,23 @@
+{
+  "name": "site-a",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "parcel",
+    "test": "echo \"no tests\""
+  },
+  "source": "src/index.html",
+  "author": "Kaleb Lape",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-inline-string": "^2.4.1",
+    "autoprefixer": "latest",
+    "parcel": "latest",
+    "postcss": "latest",
+    "tailwindcss": "latest"
+  },
+  "dependencies": {
+  },
+  "workspaces": [
+    "../components"
+  ]
+}

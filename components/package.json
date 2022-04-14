@@ -1,0 +1,20 @@
+{
+  "name": "lape-components",
+  "version": "1.0.0",
+  "source": "src/index.js",
+  "main": "dist/main.js",
+  "scripts": {
+    "watch": "parcel watch --port 5863",
+    "build": "parcel build",
+    "test": "echo \"no tests\""
+  },
+  "author": "Kaleb Lape",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-inline-string": "^2.4.1",
+    "autoprefixer": "latest",
+    "parcel": "latest",
+    "postcss": "latest",
+    "tailwindcss": "latest"
+  }
+}

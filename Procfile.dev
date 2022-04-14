@@ -1,0 +1,2 @@
+site-a: npm run --workspace ./site-a dev
+components: npm run --workspace ./components watch
