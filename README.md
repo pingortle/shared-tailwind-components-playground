@@ -8,7 +8,7 @@ tailwind styled components implementing a design system.
 
 ### Development
 
-Run `foreman start -f Procfile.dev` (or use a Procfile compatible tool like
+Run `foreman start -f Procfile.dev` (or use a `Procfile` compatible tool like
 `overmind`) to build and start the server. It will print a local URL to visit
 your site.
 
